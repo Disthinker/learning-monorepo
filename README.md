@@ -66,3 +66,34 @@ Commit message 使用以下格式：
 - [x] D1: 初始化学习总仓库
 - [ ] D2: 安装和验证本地开发工具链
 - [ ] D3: 创建第一个 C++ CMake 项目
+## 仓库结构
+
+```text
+learning-monorepo/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── roadmap/
+│   ├── learning_log/
+│   └── ai_workflow/
+├── projects/
+│   ├── cpp/
+│   ├── python/
+│   ├── game_dev/
+│   ├── ml_fl/
+│   └── ai_agent/
+└── .github/
+    └── ISSUE_TEMPLATE/
+```
+
+## 当前仓库使用方式
+
+- `docs/roadmap/`：保存阶段路线和每日计划。
+- `docs/learning_log/`：保存每日学习日志和复盘。
+- `docs/ai_workflow/`：保存 AI 辅助学习和开发规则。
+- `projects/cpp/`：保存 C++ 工程化练习项目。
+- `projects/python/`：保存 Python 工程化练习项目。
+- `projects/game_dev/`：保存游戏开发练习项目。
+- `projects/ml_fl/`：保存深度学习、联邦学习和持续学习项目。
+- `projects/ai_agent/`：保存 AI Agent 相关项目。
